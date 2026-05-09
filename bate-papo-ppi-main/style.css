@@ -1,0 +1,116 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #ece5dd;
+}
+
+header {
+    background: #ff00b3;
+    color: white;
+    padding: 15px;
+}
+
+nav {
+    background: #ffffff;
+    padding: 10px;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #ff4ac3;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+#mensagens {
+    background: #fff;
+    border-radius: 10px;
+    height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.msg {
+    background: #dcf8c6;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+button {
+    background: #ff0055;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+footer {
+    background: #ddd;
+    text-align: center;
+    padding: 15px;
+}
+.container-chat{
+    display: flex;
+    height: 500px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contatos{
+    width: 250px;
+    background: #f0f2f5;
+    border-right: 1px solid #ccc;
+}
+
+.contato{
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.contato:hover{
+    background: #ddd;
+}
+
+.area-chat{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#mensagens{
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    background: #ece5dd;
+}
+
+.msg{
+    background: #dcf8c6;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+    max-width: 70%;
+}
+
+.enviar-area{
+    display: flex;
+    padding: 10px;
+    background: #f0f2f5;
+}
+
+.enviar-area input{
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Chat</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="verificarLogin()">
+
+<header>
+    <h1>Área de Chat</h1>
+</header>
+
+<nav>
+    <a href="chat.html">Chat</a>
+    <a href="devs.html">Desenvolvedores</a>
+    <a href="tech.html">Tecnologias</a>
+</nav>
+
+<main>
+    <div class="container-chat">
+
+    <div class="contatos">
+        <div class="contato" onclick="trocarChat('chat1')">
+            Mãe
+        </div>
+
+        <div class="contato" onclick="trocarChat('chat2')">
+            Elen
+        </div>
+
+        <div class="contato" onclick="trocarChat('chat3')">
+            Marcelo
+        </div>
+    </div>
+
+    <div class="area-chat">
+
+        <div id="mensagens"></div>
+
+        <div class="enviar-area">
+            <input type="text" id="msg" placeholder="Digite sua mensagem">
+            <button onclick="enviar()">Enviar</button>
+        </div>
+
+    </div>
+
+</div>
+</main>
+
+<footer>
+    IFRN Campus Santa Cruz <br>
+    Trabalho de Programação para Internet <br>
+    Prof. Marcelo Figueiredo Barbosa Júnior
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
